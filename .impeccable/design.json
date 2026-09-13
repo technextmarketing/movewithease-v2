@@ -491,7 +491,7 @@
         "facebook",
         "youtube"
       ],
-      "sizing": ".ic at 1em; 18px in buttons and lists; 15px chips and nav chevrons; 22px icon buttons; 26–30px facades"
+      "sizing": ".ic at 1em; 18px in buttons and lists; 15px chips and nav chevrons; 22px icon buttons; 26px map pin and 30px play glyph are retired with the facades"
     },
     "recordedExceptions": [
       "Yellow never carries white text: buttons on the yellow invitation band switch to a Green Ink fill with white text, and the ghost becomes a translucent-ink-border button.",
@@ -654,7 +654,7 @@
       "**Do** rest surfaces on 1px #e2ebe9 lines and let shadow arrive on hover, focus or open; tint every shadow with rgba(23,53,52,…).",
       "**Do** keep one continuous motion — the 10 s breath (4 s in, 6 s out) — and hold every state transition to 150–350 ms on `cubic-bezier(.2,.8,.2,1)` or `ease`; remove all of it under `prefers-reduced-motion`.",
       "**Do** draw new icons on the 24-unit grid with a 2px round-capped stroke in `currentColor` and size them with `.ic`.",
-      "**Do** load third-party embeds (YouTube, Google Maps) only behind a facade the visitor clicks.",
+      "**Do** embed YouTube videos and the Google Map directly (lazy-loaded, nocookie domain); the owner asked for the content to show without a click.",
       "**Do** write copy in first person, British English, plain and unhurried; \"TRE®\" carries the mark, \"1:1\" is written with digits.",
       "**Do** follow a dense grid or row list with a quieter passage (tinted split, quiet list or the yellow band).",
       "**Do** keep the phone header compact: below 480px hide the wordmark, keep the emblem, and keep a 38px yellow button without its arrow."

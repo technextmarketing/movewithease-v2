@@ -14,7 +14,7 @@ Date: 13 September 2026.
 | # | Dimension | Score | Key finding |
 |---|-----------|-------|-------------|
 | 1 | Accessibility | 4 | Every text pair ≥ 4.5:1 (body 9.0:1, muted 5.2:1, green ink on yellow 7.1:1, links 6.7:1); landmarks, labelled controls, inline errors, 2px focus ring, skip link, keyboard-operable drop-downs and drawer; 44px touch targets including the compact phone header button |
-| 2 | Performance | 4 | Home first load ≈ 348 KB uncompressed (43 KB HTML, 36 KB CSS, 10 KB JS, 74 KB latin fonts, 158 KB hero photo); zero third-party requests until a visitor clicks play or "show on a map"; fonts self-hosted and preloaded; images sized and lazy-loaded below the fold |
+| 2 | Performance | 4 | Home first load ≈ 348 KB uncompressed (43 KB HTML, 36 KB CSS, 10 KB JS, 74 KB latin fonts, 158 KB hero photo); the six YouTube players and the footer Google Map are direct embeds that load with the page (owner's instruction, 13 Sep 2026), marked `loading="lazy"` so they fetch as they approach the viewport; fonts self-hosted and preloaded; images sized and lazy-loaded below the fold |
 | 3 | Responsive design | 4 | `scrollWidth == clientWidth` at 320, 375, 1280 and 1440; nav changes topology (drop-downs → drawer), hero and reading blocks change topology (columns → stack), footer 4 → 2 → 1 columns |
 | 4 | Theming | 4 | One light scheme by design (the use scene is a clinic website read in daylight); every colour is a token; yellow always carries green ink; `#f3f8f7` is the only tint |
 | 5 | Implementation integrity | 4 | One committed world across 25 pages; components reused, not re-invented per page; every claim, price and date traceable to the live site; rasters carry embedded provenance (44 scanned, 0 missing) |
@@ -50,8 +50,8 @@ Date: 13 September 2026.
 - One `<h1>` per page; no duplicate ids; no `<img>` without `alt`; no missing image files.
 - Every internal link and `#anchor` resolves (the 16 `contact.html?topic=…#enquire` links carry a query string
   and pre-select the enquiry topic; each topic value matches a form option).
-- External hosts: Acuity Scheduling, thespringrooms.com, YouTube (nocookie embed on click), Google Maps (on
-  click), Dropbox and movewithease.org.uk (PDF downloads), JAMA, Vimeo, Channel 4, drchatterjee.com,
+- External hosts: Acuity Scheduling, thespringrooms.com, YouTube (nocookie players, direct embed), Google Maps (footer
+  embed), Dropbox and movewithease.org.uk (PDF downloads), JAMA, Vimeo, Channel 4, drchatterjee.com,
   mailchi.mp, Instagram, Facebook, forms.gle.
 
 ## Open items (owner / launch)

@@ -41,7 +41,7 @@ Not a spa. One practitioner, Caroline Miller — a former nurse, Clinical & Spor
 - **Must work on phones and tablets at many sizes (user instruction).** Verified 320–1440px.
 - **Colour scheme derives from the logo (user instruction): yellow main, green secondary, white ground. No cream.**
 - Dated events: only the Friday 18 September TRE® workshop is presented as upcoming; earlier workshops are shown as previous formats with a register-interest action. Dates must be maintained by the owner.
-- No backend; static hosting only. No cookies or third-party scripts load until a visitor chooses to play a video or show the map.
+- No backend; static hosting only. YouTube (nocookie) videos and the footer Google Map are embedded directly and load with the page — the owner asked for the content to show immediately rather than behind a click (13 September 2026).
 - Undecided: final hosting and domain; whether FormSubmit is acceptable or should be swapped for a Weebly/Acuity form; Live with Ease timetable (two formats are published: Wednesday 6–7pm pay-as-you-go and a weekly donation-based lunchtime class).
 
 ## Brand Commitments

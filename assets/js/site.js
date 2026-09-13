@@ -107,44 +107,6 @@
     }
   }
 
-  /* ---------- Video facades: load YouTube only when asked ---------- */
-  Array.prototype.forEach.call(document.querySelectorAll('[data-video]'), function (box) {
-    var btn = box.querySelector('button');
-    if (!btn) { return; }
-    btn.addEventListener('click', function () {
-      var id = box.getAttribute('data-video');
-      var title = box.getAttribute('data-title') || 'Video';
-      var iframe = document.createElement('iframe');
-      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
-      iframe.title = title;
-      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
-      iframe.setAttribute('allowfullscreen', '');
-      iframe.setAttribute('loading', 'lazy');
-      box.innerHTML = '';
-      box.appendChild(iframe);
-      box.classList.add('is-playing');
-    });
-  });
-
-  /* ---------- Map facade: load Google Maps only when asked ---------- */
-  Array.prototype.forEach.call(document.querySelectorAll('[data-map]'), function (box) {
-    var btn = box.querySelector('[data-map-load]');
-    if (!btn) { return; }
-    btn.addEventListener('click', function () {
-      var iframe = document.createElement('iframe');
-      iframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.9899056773165!2d0.4162310619873929!3d51.207205441412455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df378fdc919695%3A0xd4f15cbe7353af67!2sMove%20with%20Ease!5e0!3m2!1sen!2suk!4v1748522276011!5m2!1sen!2suk';
-      iframe.title = 'Map showing the Move with Ease clinic in Laddingford, Kent';
-      iframe.setAttribute('loading', 'lazy');
-      iframe.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
-      iframe.setAttribute('allowfullscreen', '');
-      var link = box.querySelector('.map-facade__link');
-      box.innerHTML = '';
-      box.appendChild(iframe);
-      if (link) { box.appendChild(link); }
-      box.classList.add('is-loaded');
-    });
-  });
-
   /* ---------- Enquiry form ---------- */
   var form = document.querySelector('form.enquiry');
   if (form) {

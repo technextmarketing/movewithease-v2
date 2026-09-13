@@ -22,7 +22,7 @@ sentences.
 | `_src/parts/head-extra.py` | Structured data (JSON-LD) per page. |
 | `_src/convert.py` | One-off converter that produced the content partials from the first rebuild's markup. Not needed again. |
 | `assets/css/site.css` | All styling. Tokens at the top; header, hero, cards, inner-page blocks, form, footer follow. |
-| `assets/js/site.js` | Header shadow, drop-downs, phone drawer, video and map facades, form validation, card reveal. Every page works without it. |
+| `assets/js/site.js` | Header shadow, drop-downs, phone drawer, form validation. Every page works without it. |
 | `assets/fonts/` | Self-hosted Plus Jakarta Sans and Inter (variable woff2, Google Fonts, OFL). |
 | `assets/img/` | Photographs and posters from the live site (see `assets/img/SOURCES.md`). |
 | `assets/move-with-ease-logo.png`, `move-with-ease-emblem.png`, `favicon.svg` | The client's logo, its sun-and-hands emblem, and a favicon drawn from it. |
@@ -94,9 +94,10 @@ Set up 301 redirects from the old URLs when the site goes live (the table above 
    - Classes Membership: £28/month (page text and one graphic) vs £29/month (a second graphic). £28 is used.
    - The Spring Rooms address and the Laddingford clinic address are not published; only
      "Laddingford, Kent ME18 6BP" (from the breath-workshop poster) is used.
-6. **Third parties.** Nothing external loads until a visitor clicks: YouTube (`youtube-nocookie.com`)
-   through the video facades, Google Maps through the footer "Show on a map" button. Booking links
-   go to Acuity Scheduling and, for Tunbridge Wells massage, to thespringrooms.com.
+6. **Third parties.** The six YouTube videos (`youtube-nocookie.com` players on the home, chronic pain,
+   TRE and resources pages) and the footer Google Map are embedded directly and load with the page, as
+   requested on 13 September 2026. Booking links go to Acuity Scheduling and, for Tunbridge Wells massage,
+   to thespringrooms.com.
 
 ## Design in one paragraph
 

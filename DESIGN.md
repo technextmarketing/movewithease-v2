@@ -197,15 +197,12 @@ components:
     backgroundColor: "{colors.yellow}"
     textColor: "{colors.green-ink}"
     padding: "72px 0"
-  video-facade:
+  video-embed:
     backgroundColor: "{colors.green-ink}"
-    textColor: "{colors.paper}"
     rounded: "{rounded.lg}"
-  map-facade:
+  map-embed:
     backgroundColor: "{colors.green-050}"
-    textColor: "{colors.green-ink}"
     rounded: "{rounded.card}"
-    padding: "20px"
 ---
 
 # Design System: Move with Ease
@@ -246,8 +243,8 @@ Two logo colours on white: yellow as a rare, whole-field warmth; green as the en
 - **Green on Yellow** (`green-on-yellow`): Body copy set on a yellow field — the invitation band paragraph and the start card's description and price qualifier.
 
 ### Tertiary (the tints)
-- **Green Tint** (`green-050`): The only tinted surface. Alternate section bands (`.section--alt`, `.blocks--alt`), the note box, quotes inside reading blocks, the past tag, the map facade, the check-mark disc, and every hover fill for links, nav items, option rows and ghost buttons. The stylesheet exposes it twice (`--green-050` and `--alt`) with the same value.
-- **Green Tint 100** (`green-100`): The note box border and the map facade's hover fill.
+- **Green Tint** (`green-050`): The only tinted surface. Alternate section bands (`.section--alt`, `.blocks--alt`), the note box, quotes inside reading blocks, the past tag, the map frame while it loads, the check-mark disc, and every hover fill for links, nav items, option rows and ghost buttons. The stylesheet exposes it twice (`--green-050` and `--alt`) with the same value.
+- **Green Tint 100** (`green-100`): The note box border.
 - **Green Tint 200** (`green-200`): The ghost button border at rest, the border cards adopt on hover, form field borders at rest, the `.text-link` underline at rest, and the breadcrumb separator.
 
 ### Neutral
@@ -266,7 +263,7 @@ Two logo colours on white: yellow as a rare, whole-field warmth; green as the en
 - Body on Paper ≈ 9.0:1; Body on Green Tint ≈ 8.0:1.
 - Muted on Paper ≈ 5.2:1; Muted on Green Tint ≈ 4.9:1 (the floor for small text).
 - Deep Green on Paper ≈ 6.7:1 (links); Logo Green on Paper ≈ 4.8:1 (brand name at 1.15rem 700 and icons only, never running text).
-- Paper on Green Ink ≈ 13:1; Paper on Deep Green ≈ 6.7:1 (dark buttons, video facade, skip link).
+- Paper on Green Ink ≈ 13:1; Paper on Deep Green ≈ 6.7:1 (dark buttons, the video frame while it loads, skip link).
 - Error Red on Paper ≈ 6.5:1.
 
 ### Browser surfaces
@@ -374,7 +371,7 @@ Buttons are compact and confident; cards are quiet until touched; inputs are tal
 - **Where item (`.where__item`):** not a chip but the same idiom without the pill — 18px Logo Green icon, Ink bold line, Muted second line, 14px / 1.35.
 
 ### Cards / Containers
-- **Corner style:** 14px on every card, row, quote, place, note, tile and option list; 20px on figures and the video facade.
+- **Corner style:** 14px on every card, row, quote, place, note, tile and option list; 20px on figures and the video frame.
 - **Background:** Paper on white and on tinted bands alike (quotes inside `.blocks` switch to Green Tint with no border; past rows go Green Tint with no border).
 - **Border:** 1px Line; Green Tint 200 on hover. The note box uses Green Tint fill with a Green Tint 100 border.
 - **Shadow:** none at rest; hover lift with a 3px rise on `.card`, `.tcard`, `.tile` and voucher tiles; resting lift on `.row` hover only (no rise).
@@ -415,9 +412,9 @@ Buttons are compact and confident; cards are quiet until touched; inputs are tal
 - **Quiet list (`.quiet-list`):** full-width link rows `1.1fr | 2fr | arrow` between 1px lines, 22px tall padding, title in Plus Jakarta Sans 700 1.15rem Green Ink with a Muted 14px sub-line, 15.5px description, hover tint and arrow nudge.
 - **Hours (`.hours`):** borderless table, 1px Line row rules, 9px cells (12px in reading blocks), Ink 600 day header 6.5em wide, nowrap Ink time, Muted place.
 
-### Facades (no third-party code until asked)
-- **Video (`.video`):** a 16:9 Green Ink box, 20px radius, max 820px, holding one button: a 68px Logo Yellow play disc with a 30px Green Ink triangle above a Paper 600 15px label. Hover scales the disc 1.06 with the yellow glow. Clicking swaps in a lazy `youtube-nocookie` iframe.
-- **Map (`.map-facade`):** a ≥150px Green Tint panel, 1px Line border, 14px radius, with a 26px Logo Green pin, Green Ink 600 14px label and Muted "Loads Google Maps" line; hover Green Tint 100 with a Green Tint 200 border. Clicking swaps in the Google Maps iframe (220px tall, 14px radius) and keeps the "Open in Google Maps" link beneath.
+### Embeds (direct, by the owner's instruction)
+- **Video (`.video`):** a 16:9 Green Ink frame, 20px radius, max 820px, filled by a `youtube-nocookie.com/embed/<id>?rel=0` iframe (`loading="lazy"`, `allowfullscreen`, titled with the video name). The player shows immediately; nothing sits in front of it. A Muted 14px `.video-links` line beneath offers "Watch on YouTube".
+- **Map (`.footer__map`):** the Google Maps embed iframe for the Laddingford clinic, 220px tall, 14px radius, Green Tint behind it while it loads, with the "Open in Google Maps" link beneath. Loads with the footer.
 
 ### Signature: the Breathing Sun (`.hero__visual`)
 A square up to 540px. The sun (`.sun`) is a Logo Yellow circle at 76% width placed 4% from the top-left, with a 2px Logo Yellow ring at −9% inset and 45% opacity. Over its lower-right edge sits the garden portrait (`.hero__photo`, 58% wide, 3:4, 20px radius, 6px Paper frame, hover-lift shadow). At bottom-left a 14px Inter 600 Green Ink caption with an 8px Logo Green dot alternates "Breathe in" / "Breathe out".
@@ -449,7 +446,7 @@ Every raster is the client's own photograph or poster from the live site, resize
 - **Do** rest surfaces on 1px #e2ebe9 lines and let shadow arrive on hover, focus or open; tint every shadow with rgba(23,53,52,…).
 - **Do** keep one continuous motion — the 10 s breath (4 s in, 6 s out) — and hold every state transition to 150–350 ms on `cubic-bezier(.2,.8,.2,1)` or `ease`; remove all of it under `prefers-reduced-motion`.
 - **Do** draw new icons on the 24-unit grid with a 2px round-capped stroke in `currentColor` and size them with `.ic`.
-- **Do** load third-party embeds (YouTube, Google Maps) only behind a facade the visitor clicks.
+- **Do** embed YouTube videos and the Google Map directly (lazy-loaded, nocookie domain); the owner asked for the content to show without a click.
 - **Do** write copy in first person, British English, plain and unhurried; "TRE®" carries the mark, "1:1" is written with digits.
 - **Do** follow a dense grid or row list with a quieter passage (tinted split, quiet list or the yellow band).
 - **Do** keep the phone header compact: below 480px hide the wordmark, keep the emblem, and keep a 38px yellow button without its arrow.
