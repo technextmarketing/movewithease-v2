@@ -1,0 +1,8 @@
+# local tooling and bulky review captures (kept on the build machine)
+.claude/
+__pycache__/
+.impeccable/review/crops/
+.impeccable/review/*.png
+!.impeccable/review/desktop.png
+!.impeccable/review/mobile.png
+.impeccable/review/detect.err

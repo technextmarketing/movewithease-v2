@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-13T09:56:52Z",
+  "title": "Design System: Move with Ease",
+  "extensions": {
+    "colorMeta": {
+      "yellow": {
+        "role": "primary",
+        "displayName": "Logo Yellow",
+        "hex": "#eeb500",
+        "canonical": "oklch(80.3% 0.164 86)",
+        "tonalRamp": [
+          "oklch(15.0% 0.087 86)",
+          "oklch(27.0% 0.110 86)",
+          "oklch(39.0% 0.133 86)",
+          "oklch(51.0% 0.157 86)",
+          "oklch(63.0% 0.149 86)",
+          "oklch(75.0% 0.126 86)",
+          "oklch(87.0% 0.102 86)",
+          "oklch(95.0% 0.087 86)"
+        ]
+      },
+      "yellow-deep": {
+        "role": "primary",
+        "displayName": "Deep Yellow",
+        "hex": "#d9a400",
+        "canonical": "oklch(74.8% 0.153 85)",
+        "tonalRamp": [
+          "oklch(15.0% 0.081 85)",
+          "oklch(27.0% 0.103 85)",
+          "oklch(39.0% 0.124 85)",
+          "oklch(51.0% 0.146 85)",
+          "oklch(63.0% 0.139 85)",
+          "oklch(75.0% 0.117 85)",
+          "oklch(87.0% 0.095 85)",
+          "oklch(95.0% 0.081 85)"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Logo Green",
+        "hex": "#3e7d78",
+        "canonical": "oklch(54.6% 0.066 189)",
+        "tonalRamp": [
+          "oklch(15.0% 0.035 189)",
+          "oklch(27.0% 0.044 189)",
+          "oklch(39.0% 0.053 189)",
+          "oklch(51.0% 0.062 189)",
+          "oklch(63.0% 0.059 189)",
+          "oklch(75.0% 0.050 189)",
+          "oklch(87.0% 0.041 189)",
+          "oklch(95.0% 0.035 189)"
+        ]
+      },
+      "green-deep": {
+        "role": "secondary",
+        "displayName": "Deep Green",
+        "hex": "#2f6560",
+        "canonical": "oklch(46.8% 0.058 187)",
+        "tonalRamp": [
+          "oklch(15.0% 0.031 187)",
+          "oklch(27.0% 0.039 187)",
+          "oklch(39.0% 0.047 187)",
+          "oklch(51.0% 0.055 187)",
+          "oklch(63.0% 0.053 187)",
+          "oklch(75.0% 0.044 187)",
+          "oklch(87.0% 0.036 187)",
+          "oklch(95.0% 0.031 187)"
+        ]
+      },
+      "green-ink": {
+        "role": "secondary",
+        "displayName": "Green Ink",
+        "hex": "#173534",
+        "canonical": "oklch(30.6% 0.036 193)",
+        "tonalRamp": [
+          "oklch(15.0% 0.019 193)",
+          "oklch(27.0% 0.024 193)",
+          "oklch(39.0% 0.029 193)",
+          "oklch(51.0% 0.034 193)",
+          "oklch(63.0% 0.033 193)",
+          "oklch(75.0% 0.027 193)",
+          "oklch(87.0% 0.022 193)",
+          "oklch(95.0% 0.019 193)"
+        ]
+      },
+      "green-on-yellow": {
+        "role": "secondary",
+        "displayName": "Green on Yellow",
+        "hex": "#24504a",
+        "canonical": "oklch(39.8% 0.050 184)",
+        "tonalRamp": [
+          "oklch(15.0% 0.026 184)",
+          "oklch(27.0% 0.033 184)",
+          "oklch(39.0% 0.041 184)",
+          "oklch(51.0% 0.048 184)",
+          "oklch(63.0% 0.045 184)",
+          "oklch(75.0% 0.038 184)",
+          "oklch(87.0% 0.031 184)",
+          "oklch(95.0% 0.026 184)"
+        ]
+      },
+      "green-050": {
+        "role": "tertiary",
+        "displayName": "Green Tint",
+        "hex": "#f3f8f7",
+        "canonical": "oklch(97.5% 0.005 183)",
+        "tonalRamp": [
+          "oklch(15.0% 0 0)",
+          "oklch(27.0% 0 0)",
+          "oklch(39.0% 0.004 183)",
+          "oklch(51.0% 0.005 183)",
+          "oklch(63.0% 0.005 183)",
+          "oklch(75.0% 0.004 183)",
+          "oklch(87.0% 0 0)",
+          "oklch(95.0% 0 0)"
+        ]
+      },
+      "green-100": {
+        "role": "tertiary",
+        "displayName": "Green Tint 100",
+        "hex": "#dbe9e6",
+        "canonical": "oklch(92.3% 0.015 182)",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 182)",
+          "oklch(27.0% 0.010 182)",
+          "oklch(39.0% 0.013 182)",
+          "oklch(51.0% 0.015 182)",
+          "oklch(63.0% 0.014 182)",
+          "oklch(75.0% 0.012 182)",
+          "oklch(87.0% 0.010 182)",
+          "oklch(95.0% 0.008 182)"
+        ]
+      },
+      "green-200": {
+        "role": "tertiary",
+        "displayName": "Green Tint 200",
+        "hex": "#b9d3ce",
+        "canonical": "oklch(84.6% 0.029 183)",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 183)",
+          "oklch(27.0% 0.019 183)",
+          "oklch(39.0% 0.023 183)",
+          "oklch(51.0% 0.027 183)",
+          "oklch(63.0% 0.026 183)",
+          "oklch(75.0% 0.022 183)",
+          "oklch(87.0% 0.018 183)",
+          "oklch(95.0% 0.015 183)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "hex": "#182422",
+        "canonical": "oklch(24.8% 0.017 184)",
+        "tonalRamp": [
+          "oklch(15.0% 0.009 184)",
+          "oklch(27.0% 0.011 184)",
+          "oklch(39.0% 0.014 184)",
+          "oklch(51.0% 0.016 184)",
+          "oklch(63.0% 0.016 184)",
+          "oklch(75.0% 0.013 184)",
+          "oklch(87.0% 0.011 184)",
+          "oklch(95.0% 0.009 184)"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body",
+        "hex": "#3d4c4a",
+        "canonical": "oklch(40.3% 0.019 187)",
+        "tonalRamp": [
+          "oklch(15.0% 0.010 187)",
+          "oklch(27.0% 0.013 187)",
+          "oklch(39.0% 0.016 187)",
+          "oklch(51.0% 0.018 187)",
+          "oklch(63.0% 0.017 187)",
+          "oklch(75.0% 0.015 187)",
+          "oklch(87.0% 0.012 187)",
+          "oklch(95.0% 0.010 187)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "hex": "#5f706d",
+        "canonical": "oklch(53.0% 0.021 184)",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 184)",
+          "oklch(27.0% 0.014 184)",
+          "oklch(39.0% 0.017 184)",
+          "oklch(51.0% 0.020 184)",
+          "oklch(63.0% 0.019 184)",
+          "oklch(75.0% 0.016 184)",
+          "oklch(87.0% 0.013 184)",
+          "oklch(95.0% 0.011 184)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "hex": "#e2ebe9",
+        "canonical": "oklch(93.3% 0.010 181)",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 181)",
+          "oklch(27.0% 0.007 181)",
+          "oklch(39.0% 0.008 181)",
+          "oklch(51.0% 0.009 181)",
+          "oklch(63.0% 0.009 181)",
+          "oklch(75.0% 0.008 181)",
+          "oklch(87.0% 0.006 181)",
+          "oklch(95.0% 0.005 181)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "hex": "#ffffff",
+        "canonical": "oklch(100.0% 0 0)",
+        "tonalRamp": [
+          "oklch(15.0% 0 0)",
+          "oklch(27.0% 0 0)",
+          "oklch(39.0% 0 0)",
+          "oklch(51.0% 0 0)",
+          "oklch(63.0% 0 0)",
+          "oklch(75.0% 0 0)",
+          "oklch(87.0% 0 0)",
+          "oklch(95.0% 0 0)"
+        ]
+      },
+      "red": {
+        "role": "signal",
+        "displayName": "Error Red",
+        "hex": "#b3261e",
+        "canonical": "oklch(50.1% 0.178 29)",
+        "tonalRamp": [
+          "oklch(15.0% 0.094 29)",
+          "oklch(27.0% 0.119 29)",
+          "oklch(39.0% 0.145 29)",
+          "oklch(51.0% 0.170 29)",
+          "oklch(63.0% 0.161 29)",
+          "oklch(75.0% 0.136 29)",
+          "oklch(87.0% 0.111 29)",
+          "oklch(95.0% 0.094 29)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The home h1 only; Plus Jakarta Sans 800, tight tracking, text-wrap: balance."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2 on the home page and the invitation band."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card and row h3 (1.12–1.25rem); footer h2 1.125rem; h4 at 1rem."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Every price, day and time: Plus Jakarta Sans 700, tabular lining numerals, 1.25–1.75rem by context, Green Ink."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The paragraph under an h1, max 62ch; .lead--2 drops to 1.02rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default running text, Inter 16px / 1.65 in Body colour; cards and quotes 15–15.5px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, arrow links, drop-down titles; 14px in compact buttons and form labels."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Captions, hints, notes, breadcrumbs and qualifiers in Muted."
+      },
+      "chip": {
+        "displayName": "Chip",
+        "purpose": "Tag pills; drawer group headings and the footer tagline at 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-sm",
+        "value": "0 1px 2px rgba(23,53,52,.06), 0 6px 16px -12px rgba(23,53,52,.28)",
+        "purpose": "Resting lift on photographs, the option list and voucher tiles; hovered rows."
+      },
+      {
+        "name": "shadow-md",
+        "value": "0 2px 6px rgba(23,53,52,.06), 0 16px 30px -22px rgba(23,53,52,.35)",
+        "purpose": "Hovered cards and tiles (with a 3px rise), the hero photo frame, the open drop-down."
+      },
+      {
+        "name": "shadow-yellow",
+        "value": "0 12px 28px -12px rgba(217,164,0,.6)",
+        "purpose": "Hovered primary button, start card and play disc."
+      },
+      {
+        "name": "shadow-dark",
+        "value": "0 12px 28px -14px rgba(23,53,52,.6)",
+        "purpose": "Hovered dark button (also the primary button on the yellow band)."
+      },
+      {
+        "name": "shadow-header",
+        "value": "0 8px 24px -22px rgba(23,53,52,.35)",
+        "purpose": "Header once scrollY > 8, with a 1px Line bottom border."
+      },
+      {
+        "name": "shadow-drawer",
+        "value": "-20px 0 60px -30px rgba(23,53,52,.5)",
+        "purpose": "The open phone navigation panel."
+      },
+      {
+        "name": "focus-glow",
+        "value": "0 0 0 3px rgba(62,125,120,.18)",
+        "purpose": "Focused inputs, selects and textareas together with a Logo Green border; outline removed."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #3e7d78; outline-offset: 3px; border-radius: 4px",
+        "purpose": ":focus-visible on every other interactive element."
+      },
+      {
+        "name": "primary-rest",
+        "value": "0 1px 2px rgba(23,53,52,.08)",
+        "purpose": "The only shadow a button carries at rest."
+      }
+    ],
+    "motion": [
+      {
+        "name": "breath",
+        "value": "10s ease-in-out infinite",
+        "purpose": "The one continuous motion: the sun scales 1.00 → 1.06 by 40% (4 s in) and back by 100% (6 s out)."
+      },
+      {
+        "name": "breathe-keyframes",
+        "value": "0% scale(1); 40% scale(1.06); 100% scale(1)",
+        "purpose": "Applied to .sun."
+      },
+      {
+        "name": "breathe-ring-keyframes",
+        "value": "0% scale(.97) opacity .15; 40% scale(1.04) opacity .5; 100% scale(.97) opacity .15",
+        "purpose": "Applied to .sun::after (2px ring at -9% inset)."
+      },
+      {
+        "name": "cue-in-keyframes",
+        "value": "0% 0; 6% 1; 34% 1; 42% 0; 100% 0",
+        "purpose": "Opacity of the 'Breathe in' caption."
+      },
+      {
+        "name": "cue-out-keyframes",
+        "value": "0% 0; 40% 0; 48% 1; 92% 1; 100% 0",
+        "purpose": "Opacity of the 'Breathe out' caption."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Every transform transition: button lift, card lift, arrow nudge, underline grow, emblem tilt."
+      },
+      {
+        "name": "duration-fast",
+        "value": "150–180ms ease",
+        "purpose": "Colour, background and border changes; drop-down fade."
+      },
+      {
+        "name": "duration-lift",
+        "value": "220–250ms ease-out",
+        "purpose": "Button (2px) and card (3px) rise; arrow 4px nudge; underline scaleX 0 → 1."
+      },
+      {
+        "name": "duration-panel",
+        "value": "300ms ease-out",
+        "purpose": "Drawer slideIn from translateX(30px) and opacity 0."
+      },
+      {
+        "name": "press",
+        "value": "transform: translateY(0) scale(.97); 100ms",
+        "purpose": "Button :active."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none; scroll-behavior: auto",
+        "purpose": "Under prefers-reduced-motion: everything stops, the disc rests at 1.00, 'Breathe out' hides, 'Breathe in' stays."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "grid-4-to-2",
+        "value": "1100px"
+      },
+      {
+        "name": "nav-to-drawer",
+        "value": "1023px"
+      },
+      {
+        "name": "strip-and-footer-to-2",
+        "value": "1000px"
+      },
+      {
+        "name": "inner-hero-and-blocks-stack",
+        "value": "960px"
+      },
+      {
+        "name": "home-hero-stacks",
+        "value": "900px"
+      },
+      {
+        "name": "invite-stacks",
+        "value": "860px"
+      },
+      {
+        "name": "section-rhythm-tightens",
+        "value": "760px"
+      },
+      {
+        "name": "rows-and-form-single-column",
+        "value": "640px"
+      },
+      {
+        "name": "grids-single-column",
+        "value": "560px"
+      },
+      {
+        "name": "header-wordmark-hides",
+        "value": "480px"
+      }
+    ],
+    "browserSurfaces": {
+      "selection": "background #eeb500, color #182422",
+      "caret-color": "#3e7d78",
+      "accent-color": "#3e7d78",
+      "scrollbar-color": "#3e7d78 on #f3f8f7",
+      "focus-visible": "2px solid #3e7d78, offset 3px, radius 4px",
+      "theme-color": "#ffffff",
+      "color-scheme": "light",
+      "numerals": "font-variant-numeric: tabular-nums lining-nums on .price, .option__price, .row__when, .prices dt, .tcard__price"
+    },
+    "fonts": [
+      {
+        "family": "Plus Jakarta Sans",
+        "weights": "500 800 (variable)",
+        "files": "assets/fonts/plus-jakarta-sans-latin.woff2, plus-jakarta-sans-latin-ext.woff2",
+        "display": "swap",
+        "preload": true
+      },
+      {
+        "family": "Inter",
+        "weights": "400 600 (variable)",
+        "files": "assets/fonts/inter-latin.woff2, inter-latin-ext.woff2",
+        "display": "swap",
+        "preload": true
+      }
+    ],
+    "layout": {
+      "container": "1200px",
+      "gutter": "24px (20px below 760px)",
+      "header": "72px sticky",
+      "section": "96px (64px below 760px)",
+      "quietSection": "64px",
+      "band": "72px (56px below 860px)",
+      "blocks": "1fr / 2.1fr, 64px gap, 44px padding, 1px rules, sticky title at header + 24px",
+      "pageHero": "1.3fr / .9fr, 64px gap, sticky aside at header + 20px",
+      "homeHero": "1.1fr / .9fr, 48px gap, visual square max 540px"
+    },
+    "imagery": {
+      "provenance": "assets/img/SOURCES.md — every raster is the client's own photograph or poster from movewithease.org.uk; the emblem is cropped from the logo; the favicon is authored SVG.",
+      "frames": "20px radius with shadow-sm; 14px when plain, in rows or galleries; hero portrait 6px white frame; tiles 10px",
+      "rules": "no stock people, no generated imagery, no decorative illustration beyond the sun"
+    },
+    "icons": {
+      "grid": "24 units",
+      "stroke": "2px, round caps and joins, currentColor (check inside list discs 2.6; form icons 2.25)",
+      "set": [
+        "arrow",
+        "check",
+        "chevron",
+        "play (filled)",
+        "pin",
+        "mail",
+        "monitor",
+        "menu",
+        "close",
+        "circle-alert",
+        "send",
+        "star (filled)",
+        "instagram",
+        "facebook",
+        "youtube"
+      ],
+      "sizing": ".ic at 1em; 18px in buttons and lists; 15px chips and nav chevrons; 22px icon buttons; 26–30px facades"
+    },
+    "recordedExceptions": [
+      "Yellow never carries white text: buttons on the yellow invitation band switch to a Green Ink fill with white text, and the ghost becomes a translucent-ink-border button.",
+      "No kickers or eyebrows above headings anywhere; hierarchy is size and space.",
+      "In an option list only the first price carries the 3px yellow underline — the site's single highlight rule.",
+      "Below 480px the header hides the wordmark, keeps the emblem, and keeps a compact 38px yellow button without its arrow.",
+      "Review captures were taken with reduced motion, so the disc is static and only 'Breathe in' shows."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Logo Yellow field with Green Ink label and an 18px arrow; the one booking action on white ground. Hover deepens the yellow, glows yellow and lifts 2px.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Book a free discovery call <svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 15px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap;transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s cubic-bezier(.2,.8,.2,1),background-color .18s ease,border-color .18s ease,color .18s ease}.ds-btn:hover{transform:translateY(-2px)}.ds-btn:active{transform:translateY(0) scale(.97);transition-duration:.1s}.ds-btn:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-btn .ds-ic{width:18px;height:18px;flex:none;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-btn:hover .ds-ic{transform:translateX(4px)}.ds-btn-primary{background:var(--yellow,#eeb500);color:var(--green-ink,#173534);box-shadow:0 1px 2px rgba(23,53,52,.08)}.ds-btn-primary:hover{background:var(--yellow-deep,#d9a400);box-shadow:0 12px 28px -12px rgba(217,164,0,.6)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "White field, 1px Green Tint 200 border, Green Ink label; the secondary action beside every primary. Hover tints the fill and greens the border.",
+      "html": "<a class=\"ds-btn ds-btn-ghost\" href=\"#\">Therapies &amp; prices</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 15px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap;transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s cubic-bezier(.2,.8,.2,1),background-color .18s ease,border-color .18s ease,color .18s ease}.ds-btn:hover{transform:translateY(-2px)}.ds-btn:active{transform:translateY(0) scale(.97);transition-duration:.1s}.ds-btn:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-btn .ds-ic{width:18px;height:18px;flex:none;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-btn:hover .ds-ic{transform:translateX(4px)}.ds-btn-ghost{background:var(--paper,#fff);border-color:var(--green-200,#b9d3ce);color:var(--green-ink,#173534)}.ds-btn-ghost:hover{border-color:var(--green,#3e7d78);background:var(--green-050,#f3f8f7);color:var(--green-deep,#2f6560)}"
+    },
+    {
+      "name": "Dark Button (on yellow)",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Green Ink field with white text. This is what the primary button becomes on the yellow invitation band, since yellow never carries white text. Shown here on the band with its translucent-border ghost.",
+      "html": "<div class=\"ds-band\"><h2 class=\"ds-band-h\">A gentle invitation</h2><p class=\"ds-band-p\">If you’re living with chronic pain, tension, anxiety, or stress — you’re very welcome here.</p><div class=\"ds-band-actions\"><a class=\"ds-btn ds-btn-dark\" href=\"#\">Book a free discovery call <svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a><a class=\"ds-btn ds-btn-ghost-on-yellow\" href=\"#\">Send an enquiry</a></div></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 15px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap;transition:transform .22s cubic-bezier(.2,.8,.2,1),box-shadow .22s cubic-bezier(.2,.8,.2,1),background-color .18s ease,border-color .18s ease,color .18s ease}.ds-btn:hover{transform:translateY(-2px)}.ds-btn:active{transform:translateY(0) scale(.97);transition-duration:.1s}.ds-btn:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-btn .ds-ic{width:18px;height:18px;flex:none;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-btn:hover .ds-ic{transform:translateX(4px)}.ds-band{background:var(--yellow,#eeb500);color:var(--green-ink,#173534);padding:40px 32px;border-radius:0}.ds-band-h{font:700 clamp(1.7rem,2.9vw,2.4rem)/1.12 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;letter-spacing:-.015em;margin:0 0 .35em;color:var(--green-ink,#173534)}.ds-band-p{font:400 1.12rem/1.6 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--green-on-yellow,#24504a);max-width:60ch;margin:0 0 24px}.ds-band-actions{display:flex;flex-wrap:wrap;gap:12px}.ds-btn-dark{background:var(--green-ink,#173534);color:#fff;height:52px;padding:0 24px;font-size:16px}.ds-btn-dark:hover{background:var(--green-deep,#2f6560);box-shadow:0 12px 28px -14px rgba(23,53,52,.6)}.ds-btn-ghost-on-yellow{background:transparent;border-color:rgba(23,53,52,.35);color:var(--green-ink,#173534);height:52px;padding:0 24px;font-size:16px}.ds-btn-ghost-on-yellow:hover{background:rgba(255,255,255,.35);border-color:var(--green-ink,#173534)}"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Header navigation: Inter 500 15px Ink, 40px tall, 8px radius, tint on hover; the current page or open section turns Deep Green and gains a 3px Logo Yellow bar. Drop-down triggers carry a Muted chevron.",
+      "html": "<ul class=\"ds-nav\"><li><a class=\"ds-nav-link\" href=\"#\">Home</a></li><li><a class=\"ds-nav-link\" href=\"#\">Chronic Pain Recovery</a></li><li><button class=\"ds-nav-link ds-nav-link--active\" type=\"button\" aria-expanded=\"false\">Therapies <svg class=\"ds-chev\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></li><li><a class=\"ds-nav-link\" href=\"#\">Contact</a></li></ul>",
+      "css": ".ds-nav{display:flex;gap:2px;align-items:center;list-style:none;margin:0;padding:0}.ds-nav-link{position:relative;display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 13px;border-radius:8px;border:0;background:transparent;font:500 15px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--ink,#182422);cursor:pointer;text-decoration:none;white-space:nowrap;transition:background-color .15s ease,color .15s ease}.ds-nav-link:hover{background:var(--green-050,#f3f8f7);color:var(--green-deep,#2f6560)}.ds-nav-link:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-nav-link--active{color:var(--green-deep,#2f6560)}.ds-nav-link--active::after{content:\"\";position:absolute;left:13px;right:13px;bottom:4px;height:3px;border-radius:2px;background:var(--yellow,#eeb500)}.ds-nav-link .ds-chev{width:15px;height:15px;color:var(--muted,#5f706d);transition:transform .18s ease}.ds-nav-link[aria-expanded=\"true\"] .ds-chev{transform:rotate(180deg)}"
+    },
+    {
+      "name": "Therapy Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The whole card is a link: title, a tabular display-face price with a Muted qualifier, 15px copy and an arrow link whose underline grows when the card is hovered. White, 1px Line border, 14px radius; hover lifts 3px with the medium shadow.",
+      "html": "<a class=\"ds-tcard\" href=\"#\"><h3 class=\"ds-tcard-h\">Wellbeing Therapy</h3><p class=\"ds-tcard-price\">£65 <small>60 minutes · 90 minutes £85</small></p><p class=\"ds-tcard-p\">Hands-on therapy, breath work, movement and relaxation in one session.</p><span class=\"ds-tcard-link\">Find out more <svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-tcard{display:flex;flex-direction:column;max-width:280px;background:var(--paper,#fff);border:1px solid var(--line,#e2ebe9);border-radius:14px;padding:26px 26px 22px;color:var(--body,#3d4c4a);text-decoration:none;font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .2s ease,box-shadow .25s ease}.ds-tcard:hover{transform:translateY(-3px);border-color:var(--green-200,#b9d3ce);box-shadow:0 2px 6px rgba(23,53,52,.06),0 16px 30px -22px rgba(23,53,52,.35)}.ds-tcard:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-tcard-h{font:700 1.12rem/1.3 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;letter-spacing:-.015em;color:var(--green-ink,#173534);margin:0 0 10px}.ds-tcard-price{font:700 1.55rem/1 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;font-variant-numeric:tabular-nums lining-nums;color:var(--green-ink,#173534);letter-spacing:-.02em;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}.ds-tcard-price small{font:500 13.5px/1.3 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--muted,#5f706d);letter-spacing:0}.ds-tcard-p{font-size:15px;line-height:1.55;margin:0;flex:1}.ds-tcard-link{position:relative;display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:6px 0;font:600 14px/1.3 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--green-deep,#2f6560)}.ds-tcard-link::after{content:\"\";position:absolute;left:0;right:0;bottom:2px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-tcard:hover .ds-tcard-link::after{transform:scaleX(1)}.ds-tcard-link .ds-ic{width:18px;height:18px;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-tcard:hover .ds-ic{transform:translateX(4px)}"
+    },
+    {
+      "name": "Start Card",
+      "kind": "card",
+      "refersTo": "card-start",
+      "description": "The one yellow card in a grid: Logo Yellow field, Green Ink heading, price and link, Green on Yellow copy. Hover deepens to Deep Yellow with the yellow glow. Used once as 'Not sure where to start?'.",
+      "html": "<a class=\"ds-tcard ds-tcard-start\" href=\"#\"><h3 class=\"ds-tcard-h\">Not sure where to start?</h3><p class=\"ds-tcard-price\">Free <small>Discovery call</small></p><p class=\"ds-tcard-p\">We can talk about what you’re experiencing and which approach may suit you.</p><span class=\"ds-tcard-link\">Book a free discovery call <svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-tcard{display:flex;flex-direction:column;max-width:280px;border:1px solid;border-radius:14px;padding:26px 26px 22px;text-decoration:none;font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .2s ease,box-shadow .25s ease,background-color .18s ease}.ds-tcard-start{background:var(--yellow,#eeb500);border-color:var(--yellow,#eeb500);color:var(--green-ink,#173534)}.ds-tcard-start:hover{transform:translateY(-3px);background:var(--yellow-deep,#d9a400);border-color:var(--yellow-deep,#d9a400);box-shadow:0 12px 28px -12px rgba(217,164,0,.6)}.ds-tcard-start:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:3px}.ds-tcard-h{font:700 1.12rem/1.3 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;letter-spacing:-.015em;color:var(--green-ink,#173534);margin:0 0 10px}.ds-tcard-price{font:700 1.55rem/1 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;font-variant-numeric:tabular-nums lining-nums;color:var(--green-ink,#173534);letter-spacing:-.02em;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}.ds-tcard-price small{font:500 13.5px/1.3 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--green-on-yellow,#24504a);letter-spacing:0}.ds-tcard-p{font-size:15px;line-height:1.55;margin:0;flex:1;color:var(--green-on-yellow,#24504a)}.ds-tcard-link{position:relative;display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:6px 0;font:600 14px/1.3 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--green-ink,#173534)}.ds-tcard-link::after{content:\"\";position:absolute;left:0;right:0;bottom:2px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-tcard-start:hover .ds-tcard-link::after{transform:scaleX(1)}.ds-tcard-link .ds-ic{width:18px;height:18px;transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-tcard-start:hover .ds-ic{transform:translateX(4px)}"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "tag-live",
+      "description": "Three pills: the live tag (Logo Yellow, Green Ink), the past tag (Green Tint, Muted, 1px Line) and the static place chip (white, 1px Line, Logo Green pin). Inter 600 12.5px for tags; 13px Body for places.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-tag ds-tag-live\">Next workshop</span><span class=\"ds-tag ds-tag-past\">Previous workshop</span><span class=\"ds-place\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z\"/><circle cx=\"12\" cy=\"9.5\" r=\"2.5\"/></svg>Laddingford, Kent</span></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif}.ds-tag{display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:999px;font:600 12.5px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;white-space:nowrap}.ds-tag-live{background:var(--yellow,#eeb500);color:var(--green-ink,#173534)}.ds-tag-past{background:var(--green-050,#f3f8f7);color:var(--muted,#5f706d);border:1px solid var(--line,#e2ebe9)}.ds-place{display:inline-flex;align-items:center;gap:5px;height:32px;padding:0 10px 0 8px;border:1px solid var(--line,#e2ebe9);border-radius:999px;font-size:13px;color:var(--body,#3d4c4a);background:var(--paper,#fff)}.ds-place .ds-ic{width:15px;height:15px;color:var(--green,#3e7d78);flex:none}"
+    },
+    {
+      "name": "Option List",
+      "kind": "custom",
+      "refersTo": "option-row",
+      "description": "The inner-page aside: stacked link rows (price | label + note | arrow) in one 14px container with the resting lift. Only the first row's price carries the 3px Logo Yellow underline; the recommended option renders solid, the others quiet.",
+      "html": "<ul class=\"ds-options\"><li><a class=\"ds-option\" href=\"#\"><span class=\"ds-option-price\">£260</span><span class=\"ds-option-label\">4-session programme</span><span class=\"ds-option-note\">1 × 90 minutes + 3 × 60 minutes · book online</span><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></li><li><a class=\"ds-option\" href=\"#\"><span class=\"ds-option-price\">Free</span><span class=\"ds-option-label\">Discovery call</span><span class=\"ds-option-note\">Is this approach right for you?</span><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></li></ul>",
+      "css": ".ds-options{display:grid;max-width:420px;margin:0;padding:0;list-style:none;border:1px solid var(--line,#e2ebe9);border-radius:14px;overflow:hidden;background:var(--paper,#fff);box-shadow:0 1px 2px rgba(23,53,52,.06),0 6px 16px -12px rgba(23,53,52,.28);font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif}.ds-option{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:6px 16px;padding:16px 18px;color:var(--body,#3d4c4a);text-decoration:none;border-top:1px solid var(--line,#e2ebe9);transition:background-color .15s ease}.ds-options li:first-child .ds-option{border-top:0}.ds-option:hover{background:var(--green-050,#f3f8f7)}.ds-option:focus-visible{outline:2px solid var(--green,#3e7d78);outline-offset:-3px}.ds-option-price{font:700 1.3rem/1 \"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif;font-variant-numeric:tabular-nums lining-nums;color:var(--green-ink,#173534);letter-spacing:-.02em;min-width:4.2ch;grid-row:1/3;align-self:center}.ds-options li:first-child .ds-option-price{text-decoration:underline;text-decoration-color:var(--yellow,#eeb500);text-decoration-thickness:3px;text-underline-offset:5px}.ds-option-label{font-weight:600;color:var(--ink,#182422);grid-column:2;font-size:15px;line-height:1.35}.ds-option-note{grid-column:2;font-size:13.5px;color:var(--muted,#5f706d);line-height:1.4}.ds-option .ds-ic{grid-column:3;grid-row:1/3;width:18px;height:18px;color:var(--green,#3e7d78);transition:transform .25s cubic-bezier(.2,.8,.2,1)}.ds-option:hover .ds-ic{transform:translateX(4px)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "48px tall, 1px Green Tint 200 border, 10px radius, Inter 16px Ink; label Inter 600 14px with a Muted optional span and hint below. Focus swaps the border to Logo Green with a 3px green glow; invalid turns the border red and reveals a red message with a circle-alert icon.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-email\">Email address <span class=\"ds-opt\">(optional)</span></label><input class=\"ds-input\" id=\"ds-email\" type=\"email\" placeholder=\"name@example.com\"><p class=\"ds-hint\">If you’d rather I reply by email.</p></div><div class=\"ds-field ds-field--invalid\"><label class=\"ds-label\" for=\"ds-name\">Your name</label><input class=\"ds-input\" id=\"ds-name\" type=\"text\" aria-invalid=\"true\"><p class=\"ds-error\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 8v5M12 16h.01\"/></svg><span>Please tell me your name.</span></p></div>",
+      "css": ".ds-field{display:grid;gap:6px;align-content:start;max-width:360px;margin-bottom:20px;font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif}.ds-label{font:600 14px/1.4 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--ink,#182422)}.ds-opt{font-weight:400;color:var(--muted,#5f706d)}.ds-input{width:100%;height:48px;padding:0 14px;border:1px solid var(--green-200,#b9d3ce);border-radius:10px;background:var(--paper,#fff);color:var(--ink,#182422);font:400 16px/1.4 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;caret-color:var(--green,#3e7d78);transition:border-color .15s ease,box-shadow .15s ease}.ds-input::placeholder{color:var(--muted,#5f706d)}.ds-input:focus{outline:0;border-color:var(--green,#3e7d78);box-shadow:0 0 0 3px rgba(62,125,120,.18)}.ds-hint{font-size:13.5px;color:var(--muted,#5f706d);margin:0}.ds-error{display:none;align-items:flex-start;gap:6px;font-size:13.5px;color:var(--red,#b3261e);margin:0}.ds-error svg{width:16px;height:16px;flex:none;margin-top:2px}.ds-field--invalid .ds-error{display:flex}.ds-field--invalid .ds-input{border-color:var(--red,#b3261e)}"
+    },
+    {
+      "name": "Breathing Sun",
+      "kind": "custom",
+      "refersTo": "invitation-band",
+      "description": "The signature object of the home hero: a Logo Yellow disc with a faint 2px ring that scales 1.00 → 1.06 over 4 s and back over 6 s, forever, while a caption alternates 'Breathe in' / 'Breathe out' in time. The client's photograph sits over its lower-right edge in a white 6px frame. Under prefers-reduced-motion the disc rests and only 'Breathe in' shows.",
+      "html": "<div class=\"ds-hero-visual\"><div class=\"ds-sun\" aria-hidden=\"true\"></div><div class=\"ds-hero-photo\" role=\"img\" aria-label=\"Photograph placeholder\"></div><p class=\"ds-breath-cue\" aria-hidden=\"true\"><span class=\"ds-cue-in\">Breathe in</span><span class=\"ds-cue-out\">Breathe out</span></p></div>",
+      "css": ".ds-hero-visual{position:relative;aspect-ratio:1/1;width:100%;max-width:320px;font-family:Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif}.ds-sun{position:absolute;left:4%;top:4%;width:76%;aspect-ratio:1/1;border-radius:50%;background:var(--yellow,#eeb500);transform-origin:center;animation:ds-breathe 10s ease-in-out infinite}.ds-sun::after{content:\"\";position:absolute;inset:-9%;border-radius:50%;border:2px solid var(--yellow,#eeb500);opacity:.45;animation:ds-breathe-ring 10s ease-in-out infinite}@keyframes ds-breathe{0%{transform:scale(1)}40%{transform:scale(1.06)}100%{transform:scale(1)}}@keyframes ds-breathe-ring{0%{transform:scale(.97);opacity:.15}40%{transform:scale(1.04);opacity:.5}100%{transform:scale(.97);opacity:.15}}.ds-hero-photo{position:absolute;right:2%;bottom:6%;width:58%;aspect-ratio:3/4;border-radius:20px;border:6px solid var(--paper,#fff);background:var(--green-200,#b9d3ce);box-shadow:0 2px 6px rgba(23,53,52,.06),0 16px 30px -22px rgba(23,53,52,.35)}.ds-breath-cue{position:absolute;left:8%;bottom:8%;margin:0;font:600 14px/1 Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif;color:var(--green-ink,#173534);display:grid}.ds-breath-cue span{grid-area:1/1;display:inline-flex;align-items:center;gap:8px;white-space:nowrap}.ds-breath-cue span::before{content:\"\";width:8px;height:8px;border-radius:50%;background:var(--green,#3e7d78)}.ds-cue-in{opacity:1;animation:ds-cue-in 10s ease-in-out infinite}.ds-cue-out{opacity:0;animation:ds-cue-out 10s ease-in-out infinite}@keyframes ds-cue-in{0%{opacity:0}6%{opacity:1}34%{opacity:1}42%{opacity:0}100%{opacity:0}}@keyframes ds-cue-out{0%{opacity:0}40%{opacity:0}48%{opacity:1}92%{opacity:1}100%{opacity:0}}@media (prefers-reduced-motion:reduce){.ds-sun,.ds-sun::after,.ds-cue-in,.ds-cue-out{animation:none}.ds-cue-out{display:none}.ds-cue-in{opacity:1}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Breathing Page",
+    "overview": "A pure white page with one large yellow circle on it, breathing. Everything else is green type, thin green-grey lines and the client's own photographs. The system takes the shell of a modern agency site (a sticky white header with the emblem left, centred navigation with drop-downs and one yellow button right; big display headings, short leads, card grids on alternating white and faintly tinted bands) and strips out everything techy — no gradients, no glass, no stats, no blue. It also refuses the wellness category's defaults — no cream, no serif, no lavender, no stock woman on a mat. What remains is a calm, dense-then-quiet reading page for people who may be in pain, tired or on a phone.\n\nThe world's two colours come straight from the logo and never trade roles. Logo yellow (#eeb500) is a **field** colour: it fills the breathing sun, the primary button, the closing invitation band, the \"not sure where to start\" card, the live tag, the numbered-step counters — and it always carries dark green ink, never white text. Logo green does the talking: near-black green for headings and button ink, deep green for links and the active navigation state, mid green for the brand name, icons and every browser surface (focus ring, caret, form accent, scrollbar). The only tinted surface is a barely-there green-white (#f3f8f7).\n\nMotion is a single slow breath: the sun scales 1.00 → 1.06 over four seconds and back over six, forever, with a small caption alternating \"Breathe in\" / \"Breathe out\" in time. Nothing else on the page loops. Buttons lift 2px, cards lift 3px, arrows nudge 4px, the drop-down fades in over 180 ms and the phone drawer slides in over 300 ms — all in response to the visitor, all settling within 350 ms, and all switched off under `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Pure white ground (#ffffff); one tint (#f3f8f7); no cream, no gradients, no glass.",
+      "Yellow owns whole fields and always carries dark green ink (#173534 or #24504a); yellow never sits under white text.",
+      "Green carries the voice: headings #173534, links and active states #2f6560, brand, icons and browser surfaces #3e7d78.",
+      "Plus Jakarta Sans 700–800 display with tight tracking; Inter 400–600 text; tabular lining numerals on every price and time.",
+      "Cards are white with a 1px green-grey line and a 14px radius; buttons 12px; chips are pills; photographs 20px.",
+      "Rules and space before boxes: content sits between 1px lines and generous section gaps; cards are never nested.",
+      "Authored 24-unit SVG icons, 2px stroke, round caps, one small set (arrow, check, chevron, play, pin, mail, monitor, menu, close, star).",
+      "Every raster is the client's own photograph or poster; the emblem is cropped from the logo; the favicon is authored SVG.",
+      "Copy is first person, plain, warm and unhurried, in British English; headings stand alone with no kicker or eyebrow above them."
+    ],
+    "rules": [
+      {
+        "name": "The Yellow Owns Fields Rule",
+        "body": "Yellow appears only as a filled shape — disc, button, band, card, pill, counter, 3px bar — and every such shape carries dark green ink (#173534 or #24504a). Yellow is never a text colour on white, and white text never sits on yellow. When a button must sit on the yellow band, it swaps to a Green Ink fill with Paper text.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Tint Rule",
+        "body": "#f3f8f7 is the only tinted surface. No cream, no warm grey, no gradient, no translucent glass beyond the header's 92% white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Green Carries the Voice Rule",
+        "body": "Headings speak in Green Ink, links in Deep Green, icons and the brand in Logo Green. Nothing on the page is blue, black or grey-black; even the shadows are green-tinted.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Every price, day and time is Plus Jakarta Sans 700 with tabular lining numerals and a Muted Inter qualifier beneath. Prices never appear in Inter and never in a colour other than Green Ink (Muted when the event has passed).",
+        "section": "typography"
+      },
+      {
+        "name": "The No Kicker Rule",
+        "body": "Headings stand alone. There is no eyebrow, kicker, overline or small caps label above any h1, h2 or h3 anywhere on the site; hierarchy comes from size and the space around the heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Balanced Heading Rule",
+        "body": "All headings carry `text-wrap: balance` and negative tracking; body copy never does.",
+        "section": "typography"
+      },
+      {
+        "name": "The Dense-then-Quiet Rule",
+        "body": "A dense passage (a card grid or row list at 96px) is always followed by a quieter one (a tinted band, a split with one photograph, or a lined quiet list at 64px). Two dense grids never sit back to back.",
+        "section": "layout"
+      },
+      {
+        "name": "The Rules Before Boxes Rule",
+        "body": "Enclose nothing unnecessarily. Lists, tables and reading blocks sit between 1px lines; a card is used only when the item is a link or a self-contained offer; cards are never nested inside cards.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shadow Answers Rule",
+        "body": "A surface is flat at rest and gains shadow only when it answers the visitor (hover, focus, open) or floats above the page (header when scrolled, drop-down, drawer). Photographs and the option list are the recorded exceptions that rest with the small lift.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the ground pure white (#ffffff) and use #f3f8f7 as the only tint, alternating bands white → tint → white.",
+      "**Do** fill yellow shapes (#eeb500) with dark green ink (#173534 for headings, labels and prices; #24504a for body copy) — the only two text colours that may sit on yellow.",
+      "**Do** swap the primary button to the dark treatment (#173534 fill, white text) whenever it sits on the yellow band; use the translucent-border ghost beside it.",
+      "**Do** set every price, day and time in Plus Jakarta Sans 700 with tabular lining numerals and a Muted Inter qualifier beneath.",
+      "**Do** underline only the first (recommended) price in an option list, 3px yellow offset 5px; leave the rest quiet.",
+      "**Do** use 14px radius for cards and containers, 12px for buttons, 10px for inputs and compact controls, 20px for photographs, pills for chips.",
+      "**Do** rest surfaces on 1px #e2ebe9 lines and let shadow arrive on hover, focus or open; tint every shadow with rgba(23,53,52,…).",
+      "**Do** keep one continuous motion — the 10 s breath (4 s in, 6 s out) — and hold every state transition to 150–350 ms on `cubic-bezier(.2,.8,.2,1)` or `ease`; remove all of it under `prefers-reduced-motion`.",
+      "**Do** draw new icons on the 24-unit grid with a 2px round-capped stroke in `currentColor` and size them with `.ic`.",
+      "**Do** load third-party embeds (YouTube, Google Maps) only behind a facade the visitor clicks.",
+      "**Do** write copy in first person, British English, plain and unhurried; \"TRE®\" carries the mark, \"1:1\" is written with digits.",
+      "**Do** follow a dense grid or row list with a quieter passage (tinted split, quiet list or the yellow band).",
+      "**Do** keep the phone header compact: below 480px hide the wordmark, keep the emblem, and keep a 38px yellow button without its arrow."
+    ],
+    "donts": [
+      "**Don't** put white text on yellow, or yellow text on white; yellow is a field colour only.",
+      "**Don't** introduce cream, warm grey, gradients, glass panels, blue or neutral-black type; nothing on the page is blue or #000.",
+      "**Don't** add kickers, eyebrows, overlines or small-caps labels above headings; headings stand alone.",
+      "**Don't** nest a card inside a card, or box a list or table that a 1px line and space would carry.",
+      "**Don't** add a second looping or scroll-triggered animation; the breath is the only ambient motion.",
+      "**Don't** use hard offset shadows, neutral black shadows, or shadows at rest on cards and buttons beyond the primary button's 1px lift.",
+      "**Don't** set headings in Inter or body copy in Plus Jakarta Sans; the display face is for headings, prices and the brand only.",
+      "**Don't** use system display faces, icon fonts or glyph icons; every icon is authored inline SVG in one weight.",
+      "**Don't** add stock photography, generated imagery or decorative illustration; only the client's own photographs and posters, and the sun.",
+      "**Don't** use uppercase tracking, italics or letter-spaced labels anywhere.",
+      "**Don't** apply yellow to running text, borders (other than the 3px active bar and price underline) or as a page background beyond the sun, buttons, band, start card, live tag and step counters.",
+      "**Don't** autoplay media or load YouTube or Google Maps before the visitor asks."
+    ]
+  }
+}
