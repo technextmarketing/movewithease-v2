@@ -25,7 +25,7 @@ BASE_URL = "https://www.movewithease.org.uk/"
 NOINDEX = True
 
 NAV_IDS = [
-    "home", "pain", "therapies", "wellbeing", "subscription", "subscription-terms", "hypnotherapy",
+    "home", "events", "pain", "therapies", "wellbeing", "subscription", "subscription-terms", "hypnotherapy",
     "massage", "csm", "hotstones", "cupping", "stressfree", "breath", "tre", "treworkshops",
     "classes", "yoga", "livewithease", "membership", "about", "vouchers", "resources", "contact",
 ]
@@ -102,10 +102,14 @@ PAGES = [
      "Move with Ease | Wellbeing & Chronic Pain Therapy in Kent",
      "Move with Ease offers wellbeing and chronic pain support in Kent, including clinical hypnotherapy, pain recovery therapy, massage, breath work, TRE and movement.",
      "home", None),
+    ("events.body.html", "events.html",
+     "Events, Classes & Workshops | Move with Ease, Kent",
+     "Upcoming wellbeing and chronic pain events with Move with Ease in Kent: TRE® workshops, weekly relaxation and movement classes, breath and rest workshops. Filter by type and place, add a place to your basket and book online.",
+     "events", None),
     ("chronic-pain-recovery.body.html", "chronic-pain-recovery.html",
      "Chronic Pain Recovery & Pain Reprocessing Therapy Kent | Move with Ease",
      "Personalised chronic pain recovery using Pain Reprocessing Therapy (PRT), pain neuroscience and nervous system-based strategies. In-person in Kent or online via Zoom.",
-     "pain", None),
+     "pain", "therapies"),
     ("therapies.body.html", "therapies.html",
      "Therapies & Prices | Move with Ease, Laddingford, Kent",
      "All Move with Ease 1:1 therapies in one place: chronic pain recovery, wellbeing therapy, clinical hypnotherapy, massage, breath retraining and TRE®, with session lengths and prices.",

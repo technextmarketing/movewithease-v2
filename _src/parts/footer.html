@@ -91,6 +91,83 @@
     </div>
   </footer>
 
-  <script src="assets/js/site.js?v=20260913b" defer></script>
+  <!-- Basket / checkout drawer (site-wide) -->
+  <div class="cart-overlay" data-cart-close hidden></div>
+  <aside class="cart" id="cart" aria-label="Basket and checkout" hidden>
+    <div class="cart__head">
+      <h2 class="cart__title">Your basket</h2>
+      <button class="icon-btn" type="button" data-cart-close aria-label="Close basket">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- Step 1: basket -->
+    <div class="cart__step" data-step="basket">
+      <div class="cart__empty" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2.5 3h2l2.2 12.2a1.6 1.6 0 0 0 1.6 1.3h8.4a1.6 1.6 0 0 0 1.6-1.3L21.5 8H6"/></svg>
+        <p>Your basket is empty.</p>
+        <a class="btn btn--ghost" href="events.html" data-cart-close>Browse events</a>
+      </div>
+      <ul class="cart__list" aria-label="Items in your basket"></ul>
+      <div class="cart__foot" hidden>
+        <div class="cart__subtotal"><span>Subtotal</span><span data-subtotal>&pound;0</span></div>
+        <p class="cart__note">Places are confirmed once payment is complete. You&rsquo;ll receive an email confirmation.</p>
+        <button type="button" class="btn btn--primary btn--lg cart__cta" data-go-details>Checkout</button>
+        <button type="button" class="btn-link cart__continue" data-cart-close>Continue browsing</button>
+      </div>
+    </div>
+
+    <!-- Step 2: details -->
+    <div class="cart__step" data-step="details" hidden>
+      <form class="cart-form" data-details-form novalidate>
+        <p class="cart-step-lead">Who are the places for? I&rsquo;ll use these details to confirm your booking.</p>
+        <div class="field">
+          <label for="c-name">Your name</label>
+          <input id="c-name" name="name" type="text" autocomplete="name" required>
+          <p class="field__error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span>Please tell me your name.</span></p>
+        </div>
+        <div class="field">
+          <label for="c-email">Email address</label>
+          <input id="c-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+          <p class="field__error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span>Enter an email so I can send your confirmation.</span></p>
+        </div>
+        <div class="field">
+          <label for="c-phone">Phone <span class="field__opt">(optional)</span></label>
+          <input id="c-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+        </div>
+        <div class="field">
+          <label for="c-notes">Anything I should know? <span class="field__opt">(optional)</span></label>
+          <textarea id="c-notes" name="notes" rows="3"></textarea>
+        </div>
+        <div class="cart__actions">
+          <button type="button" class="btn btn--ghost" data-back-basket>Back</button>
+          <button type="submit" class="btn btn--primary">Continue to payment</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Step 3: payment -->
+    <div class="cart__step" data-step="pay" hidden>
+      <p class="cart-step-lead">Almost there, <span data-pay-name></span>. Review and pay securely.</p>
+      <div class="pay-summary" data-pay-summary></div>
+      <div class="pay-host" data-pay-host></div>
+      <p class="pay-secure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg> Payment is handled securely. Move with Ease never sees your card details.</p>
+      <button type="button" class="btn-link" data-back-details>Back to your details</button>
+    </div>
+
+    <!-- Step 4: confirmation -->
+    <div class="cart__step" data-step="done" hidden>
+      <div class="cart-done">
+        <span class="cart-done__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg></span>
+        <h3>Thank you, your place is booked</h3>
+        <p>A confirmation is on its way to <strong data-done-email>your email</strong>. If you don&rsquo;t see it, check your junk folder or email <a href="mailto:info@movewithease.org.uk">info@movewithease.org.uk</a>.</p>
+        <div class="cart-done__summary" data-done-summary></div>
+        <a class="btn btn--primary btn--lg" href="events.html" data-cart-close>Back to events</a>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/js/site.js?v=20260915a" defer></script>
+  <script src="assets/js/cart.js?v=20260915a" defer></script>
 </body>
 </html>

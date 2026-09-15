@@ -21,8 +21,11 @@ sentences.
 | `_src/parts/<page>.body.html` | The content of each page. |
 | `_src/parts/head-extra.py` | Structured data (JSON-LD) per page. |
 | `_src/convert.py` | One-off converter that produced the content partials from the first rebuild's markup. Not needed again. |
-| `assets/css/site.css` | All styling. Tokens at the top; header, hero, cards, inner-page blocks, form, footer follow. |
+| `assets/css/site.css` | All styling. Tokens at the top; header, hero, cards, inner-page blocks, form, events page, basket drawer, footer follow. |
 | `assets/js/site.js` | Header shadow, drop-downs, phone drawer, form validation. Every page works without it. |
+| `assets/js/events-data.js` | The events list (date-driven). Edit this to add, change or price an event. |
+| `assets/js/events.js` | Renders and filters the Events page from `events-data.js`. |
+| `assets/js/cart.js` | Site-wide basket, checkout and payment. Set `PAYPAL_CLIENT_ID` here to take real payments. |
 | `assets/fonts/` | Self-hosted Plus Jakarta Sans and Inter (variable woff2, Google Fonts, OFL). |
 | `assets/img/` | Photographs and posters from the live site (see `assets/img/SOURCES.md`). |
 | `assets/move-with-ease-logo.png`, `move-with-ease-emblem.png`, `favicon.svg` | The client's logo, its sun-and-hands emblem, and a favicon drawn from it. |
@@ -42,6 +45,7 @@ Then open <http://localhost:8775/>. (The Pictures `.claude/launch.json` entry is
 | New page | Replaces (live site) |
 |---|---|
 | `index.html` | `/` |
+| `events.html` | new: all events, classes and workshops with filtering, basket and checkout |
 | `chronic-pain-recovery.html` | `chronic-pain-recovery-kent.html`, `painreprocessingtherapy.html`, `painreprocessinghtherapy-441286.html`, `painreprocessinghtherapy-441286-485762.html` |
 | `therapies.html` | new: every 1:1 therapy with prices in one place |
 | `wellbeing-therapy.html` | `wellbeing-therapy-kent.html` |
@@ -67,6 +71,33 @@ Then open <http://localhost:8775/>. (The Pictures `.claude/launch.json` entry is
 | `thank-you.html`, `404.html` | new |
 
 Set up 301 redirects from the old URLs when the site goes live (the table above is the mapping).
+The top-level **Chronic Pain Recovery** nav link was replaced by **Events** on 15 September 2026;
+the Chronic Pain Recovery page still exists and is linked from the Therapies menu and the footer.
+
+## Events, basket and payment
+
+The **Events** page (`events.html`) lists every class and workshop, computes upcoming / previous
+status from each event's date, and lets visitors filter by When, Type and Where. Priced, upcoming
+events show **Add to basket**; recurring or to-be-confirmed ones show **Register interest**;
+members-only classes show **Ask about a place**.
+
+- **Add the events** by editing `assets/js/events-data.js` — one object per event (id, date,
+  time, venue, price, blurb, image, `bookable`). Status is worked out from the date, so the only
+  maintenance is this file. This replaces hand-editing several pages when a date changes.
+- **The basket** (`assets/js/cart.js`) is on every page: a slide-out drawer with quantity steppers,
+  a subtotal, a details step (name + email), a payment step and a confirmation. It remembers its
+  contents in the browser (`localStorage`).
+- **Payment — connect a real account before taking money.** Out of the box the checkout runs in
+  **demo mode**: the whole basket → details → payment → confirmation flow works and is testable,
+  but no card is charged. To take real card / PayPal payments, open `assets/js/cart.js` and set
+  `PAYPAL_CLIENT_ID` to the practice's **live PayPal client ID** (from
+  <https://developer.paypal.com>). Payment then runs entirely in the browser (no server, no secret
+  key) via PayPal's official buttons, in GBP. Test with a **sandbox** client ID first. Alternatives,
+  if PayPal isn't wanted: swap the payment step for Stripe Payment Links, Snipcart, or route each
+  event to its existing Acuity booking link (already stored as `book` in `events-data.js`).
+- **Amounts are set in the page**, which is standard for a no-server checkout and fine for
+  low-value workshop places; a payment provider that needs server-side price verification would
+  require a small backend (this site is static).
 
 ## Before this goes live
 
