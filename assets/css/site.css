@@ -131,13 +131,14 @@ em{color:var(--ink)}
 /* ---------- header (TechNext format, simplified) ---------- */
 .header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid transparent;transition:border-color .2s ease,box-shadow .2s ease}
 .header.is-scrolled{border-bottom-color:var(--line);box-shadow:0 8px 24px -22px rgba(23,53,52,.35)}
-.header-inner{height:var(--header-h);display:grid;grid-template-columns:auto 1fr auto auto auto;align-items:center;gap:12px}
+.header-inner{height:var(--header-h);display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px}
+.header-actions{display:flex;align-items:center;gap:8px;grid-column:3;justify-self:end}
 .brand{display:inline-flex;align-items:center;gap:10px;color:var(--green-ink);text-decoration:none}
 .brand:hover{text-decoration:none}
 .brand img{width:40px;height:40px;flex:none;transition:transform .35s var(--ease-out)}
 .brand:hover img{transform:rotate(-6deg) scale(1.04)}
 .brand__name{font:700 1.15rem/1 var(--font-display);letter-spacing:-.02em;color:var(--green);white-space:nowrap}
-.nav{justify-self:center}
+.nav{justify-self:center;grid-column:2}
 .nav-list{display:flex;gap:2px;align-items:center}
 .nav-item{position:relative}
 .nav-link{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 13px;border-radius:var(--r-sm);border:0;background:transparent;font:500 15px/1 var(--font-body);color:var(--ink);cursor:pointer;text-decoration:none;white-space:nowrap;transition:background-color .15s ease,color .15s ease}
@@ -161,7 +162,6 @@ em{color:var(--ink)}
 .header-cta .btn .short{display:none}
 .menu-btn{display:none}
 @media (max-width:1023px){
-  .header-inner{grid-template-columns:auto 1fr auto auto}
   .nav{display:none}
   .menu-btn{display:grid}
 }
